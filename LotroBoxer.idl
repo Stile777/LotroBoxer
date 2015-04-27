@@ -1,0 +1,29 @@
+// LotroBoxer.idl : type library source for LotroBoxer.exe
+
+// This file will be processed by the MIDL compiler to produce the
+// type library (LotroBoxer.tlb).
+
+[ uuid(26DDD0CE-F7E0-46AD-A741-620381AE1FFD), version(1.0) ]
+library LotroBoxer
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+	//  Primary dispatch interface for CLotroBoxerDoc
+	
+	[ uuid(37885EAA-CB6F-4FDA-BE8B-219ADA6F186C) ]
+	dispinterface ILotroBoxer
+	{
+		properties:
+			
+		methods:
+	};
+
+	//  Class information for CLotroBoxerDoc
+	
+	[ uuid(4027CE69-721C-48E8-A921-0D83487E5F2C) ]
+	coclass LotroBoxer
+	{
+		[default] dispinterface ILotroBoxer;
+	};
+};

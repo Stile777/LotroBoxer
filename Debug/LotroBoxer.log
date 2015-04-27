@@ -1,0 +1,19 @@
+﻿Build started 4/27/2015 7:54:36 AM.
+     1>Project "C:\Users\stile777\Documents\Visual Studio 2013\Projects\Visual C++ 2013\LotroBoxer\LotroBoxer\LotroBoxer.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\LotroBoxer.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt LotroBoxerDlg.cpp
+         LotroBoxerDlg.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\stile777\Documents\Visual Studio 2013\Projects\Visual C++ 2013\LotroBoxer\Debug\LotroBoxer.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"C:\Users\stile777\Documents\Visual Studio 2013\Projects\Visual C++ 2013\LotroBoxer\Debug\LotroBoxer.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\stile777\Documents\Visual Studio 2013\Projects\Visual C++ 2013\LotroBoxer\Debug\LotroBoxer.lib" /MACHINE:X86 Debug\LotroBoxer.res
+         Debug\DlgProxy.obj
+         Debug\LotroBoxer.obj
+         Debug\LotroBoxerDlg.obj
+         Debug\stdafx.obj
+         LotroBoxer.vcxproj -> C:\Users\stile777\Documents\Visual Studio 2013\Projects\Visual C++ 2013\LotroBoxer\Debug\LotroBoxer.exe
+       RegisterOutput:
+         "C:\Users\stile777\Documents\Visual Studio 2013\Projects\Visual C++ 2013\LotroBoxer\Debug\LotroBoxer.exe" /RegServer
+     1>Done Building Project "C:\Users\stile777\Documents\Visual Studio 2013\Projects\Visual C++ 2013\LotroBoxer\LotroBoxer\LotroBoxer.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.62

@@ -1,0 +1,17 @@
+REGEDIT
+; This .REG file may be used by your SETUP program.
+;   If a SETUP program is not available, the entries below will be
+;   registered in your InitInstance automatically with a call to
+;   CWinApp::RegisterShellFileTypes and COleObjectFactory::UpdateRegistryAll.
+
+
+HKEY_CLASSES_ROOT\LotroBoxer.Application = LotroBoxer Application
+
+
+HKEY_CLASSES_ROOT\LotroBoxer.Application\CLSID = {4027CE69-721C-48E8-A921-0D83487E5F2C}
+
+HKEY_CLASSES_ROOT\CLSID\{4027CE69-721C-48E8-A921-0D83487E5F2C} = LotroBoxer Application
+HKEY_CLASSES_ROOT\CLSID\{4027CE69-721C-48E8-A921-0D83487E5F2C}\ProgId = LotroBoxer.Application
+
+
+HKEY_CLASSES_ROOT\CLSID\{4027CE69-721C-48E8-A921-0D83487E5F2C}\LocalServer32 = LotroBoxer.EXE
